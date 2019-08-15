@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F0D064E-F565-4A6E-8DC0-8DB5CEF4B5AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Friendcom.Protocol</RootNamespace>
+    <AssemblyName>Friendcom.Protocol</AssemblyName>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1376_1\ControlDownField.cs" />
+    <Compile Include="1376_1\ControlUpField.cs" />
+    <Compile Include="1376_1\Enum\EmProtocolIdentifier.cs" />
+    <Compile Include="1376_1\LengthField.cs" />
+    <Compile Include="1376_2\Address.cs" />
+    <Compile Include="1376_2\AddressField.cs" />
+    <Compile Include="1376_2\ControlField.cs" />
+    <Compile Include="1376_2\DataInDataUnit.cs" />
+    <Compile Include="1376_2\DataUnit.cs" />
+    <Compile Include="1376_2\DataUnitIdentifier.cs" />
+    <Compile Include="1376_2\Frame1376_2.cs" />
+    <Compile Include="1376_2\Frame1376_2Down.cs" />
+    <Compile Include="1376_2\Frame1376_2Up.cs" />
+    <Compile Include="1376_2\InformationUpField.cs" />
+    <Compile Include="1376_2\InformationDownField.cs" />
+    <Compile Include="1376_2\LengthField.cs" />
+    <Compile Include="1376_2\OtherDataUnit.cs" />
+    <Compile Include="645\07_DataFields\C11_DataField.cs" />
+    <Compile Include="645\07_DataFields\C12_DataField.cs" />
+    <Compile Include="645\07_DataFields\C14_DataField.cs" />
+    <Compile Include="645\07_DataFields\C15_DataField.cs" />
+    <Compile Include="645\07_DataFields\C18_DataField.cs" />
+    <Compile Include="645\07_DataFields\C19_DataField.cs" />
+    <Compile Include="645\07_DataFields\C1A_DataField.cs" />
+    <Compile Include="645\07_DataFields\C1B_DataField.cs" />
+    <Compile Include="645\07_DataFields\C91_DataField.cs" />
+    <Compile Include="645\07_DataFields\C92_DataField.cs" />
+    <Compile Include="645\07_DataFields\C93_DataField.cs" />
+    <Compile Include="645\07_DataFields\C98_DataField.cs" />
+    <Compile Include="645\07_DataFields\CB1_DataField.cs" />
+    <Compile Include="645\07_DataFields\CB2_DataField.cs" />
+    <Compile Include="645\97_DataFields\C01_DataField.cs" />
+    <Compile Include="645\97_DataFields\C02_DataField.cs" />
+    <Compile Include="645\97_DataFields\C04_DataField.cs" />
+    <Compile Include="645\97_DataFields\C0A_DataField.cs" />
+    <Compile Include="645\97_DataFields\C0F_DataField.cs" />
+    <Compile Include="645\97_DataFields\C81_DataField.cs" />
+    <Compile Include="645\97_DataFields\C82_DataField.cs" />
+    <Compile Include="645\97_DataFields\C83_DataField.cs" />
+    <Compile Include="645\97_DataFields\C8F_DataField.cs" />
+    <Compile Include="645\97_DataFields\CA1_DataField.cs" />
+    <Compile Include="645\97_DataFields\CA2_DataField.cs" />
+    <Compile Include="645\97_DataFields\CA3_DataField.cs" />
+    <Compile Include="645\Frame645_07.cs" />
+    <Compile Include="645\Frame645_97.cs" />
+    <Compile Include="645\OtherDataField.cs" />
+    <Compile Include="645\AddressField.cs" />
+    <Compile Include="645\ControlField.cs" />
+    <Compile Include="645\DataField.cs" />
+    <Compile Include="645\DataIdentifier97.cs" />
+    <Compile Include="645\DataIdentifier07.cs" />
+    <Compile Include="645\DataInDataField.cs" />
+    <Compile Include="645\Frame645.cs" />
+    <Compile Include="645\OperatorCode.cs" />
+    <Compile Include="645\PAInPassword.cs" />
+    <Compile Include="645\Password.cs" />
+    <Compile Include="645\PWInPassword.cs" />
+    <Compile Include="Formats\ByteFormat.cs" />
+    <Compile Include="CJT188_2004\AddressField.cs" />
+    <Compile Include="CJT188_2004\ControlField.cs" />
+    <Compile Include="CJT188_2004\DataField.cs" />
+    <Compile Include="CJT188_2004\DataInDataField.cs" />
+    <Compile Include="CJT188_2004\FrameCJT188_2004.cs" />
+    <Compile Include="CJT188_2004\OtherDataField.cs" />
+    <Compile Include="IFormat.cs" />
+    <Compile Include="IDataOperation.cs" />
+    <Compile Include="LeafField.cs" />
+    <Compile Include="MicroPower\ApsFrame.cs" />
+    <Compile Include="MicroPower\ApsDu.cs" />
+    <Compile Include="MicroPower\Enums\EmMacCmdID.cs" />
+    <Compile Include="MicroPower\Enums\EmMacFrameType.cs" />
+    <Compile Include="MicroPower\Enums\EmMacVersion.cs" />
+    <Compile Include="MicroPower\Enums\EmNetCmdID.cs" />
+    <Compile Include="MicroPower\MacBeacon.cs" />
+    <Compile Include="MicroPower\MacCmd.cs" />
+    <Compile Include="MicroPower\MacCtrl.cs" />
+    <Compile Include="MicroPower\MacExtension.cs" />
+    <Compile Include="MicroPower\MacFrame.cs" />
+    <Compile Include="MicroPower\NetCmd.cs" />
+    <Compile Include="MicroPower\NetFrame.cs" />
+    <Compile Include="MicroPower\NetRouteInfo.cs" />
+    <Compile Include="MicroPower\Sequence.cs" />
+    <Compile Include="MicroPower\DMPFrame.cs" />
+    <Compile Include="MicroPower\Enums\EmAddrLen.cs" />
+    <Compile Include="MicroPower\Enums\EmApsFcdFtd.cs" />
+    <Compile Include="MicroPower\ApsFcd.cs" />
+    <Compile Include="MicroPower\ApsOed.cs" />
+    <Compile Include="MicroPower\ApsOedDataArea.cs" />
+    <Compile Include="MicroPower\ApsOedManufacturerID.cs" />
+    <Compile Include="MicroPower\Enums\EmApsFcdFtdAck.cs" />
+    <Compile Include="MicroPower\Enums\EmApsFcdFtdCi.cs" />
+    <Compile Include="MicroPower\Enums\EmApsFcdFtdDri.cs" />
+    <Compile Include="MicroPower\Enums\EmApsFcdFtdDti.cs" />
+    <Compile Include="MicroPower\Enums\EmNetFrameType.cs" />
+    <Compile Include="MicroPower\NetAddr.cs" />
+    <Compile Include="MicroPower\NetCtrl.cs" />
+    <Compile Include="NonLeafField.cs" />
+    <Compile Include="PrimitiveField.cs" />
+    <Compile Include="ReadonlyPrimitiveField.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Result.cs" />
+    <Compile Include="ReverseLeafField.cs" />
+    <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
