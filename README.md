@@ -5,6 +5,3 @@
 - 645(07和97)
 - CJT188-2004
 - 微功率无线(未完成)
-
-DL.Protocol 为协议核心项目
-DL.Protocol.Sample 为测试项目
