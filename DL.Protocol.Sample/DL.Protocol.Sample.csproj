@@ -61,7 +61,7 @@
     <Compile Include="MacFrameTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Friendcom.Protocol\DL.Protocol.csproj">
+    <ProjectReference Include="..\DL.Protocol\DL.Protocol.csproj">
       <Project>{3f0d064e-f565-4a6e-8dc0-8db5cef4b5ae}</Project>
       <Name>DL.Protocol</Name>
     </ProjectReference>
