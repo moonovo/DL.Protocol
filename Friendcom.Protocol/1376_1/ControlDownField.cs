@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._1376_1
+namespace DL.Protocol._1376_1
 {
     /// <summary>
     /// 下行帧控制域

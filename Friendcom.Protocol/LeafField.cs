@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol
+namespace DL.Protocol
 {
     /// <summary>
     /// 叶子域 没有孩子

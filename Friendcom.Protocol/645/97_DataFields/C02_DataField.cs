@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._645._97_DataFields
+namespace DL.Protocol._645._97_DataFields
 {
     public class C02_DataField : DataField
     {

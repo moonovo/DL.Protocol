@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.MicroPower
+namespace DL.Protocol.MicroPower
 {
     /// <summary>
     /// APS中OED中的扩展域数据区

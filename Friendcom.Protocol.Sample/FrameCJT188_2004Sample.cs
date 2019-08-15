@@ -3,9 +3,9 @@ using System.Linq;
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Friendcom.Protocol.CJT188_2004;
+using DL.Protocol.CJT188_2004;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     /// <summary>
     /// FrameCJT188_2004Sample 的摘要说明

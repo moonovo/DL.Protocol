@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Friendcom.Protocol.MicroPower.Enums;
+using DL.Protocol.MicroPower.Enums;
 
-namespace Friendcom.Protocol.MicroPower
+namespace DL.Protocol.MicroPower
 {
     /// <summary>
     /// 网络层的帧控制域

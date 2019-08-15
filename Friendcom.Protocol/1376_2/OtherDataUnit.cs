@@ -1,10 +1,10 @@
-﻿using Friendcom.Protocol._645;
+﻿using DL.Protocol._645;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._1376_2
+namespace DL.Protocol._1376_2
 {
     /// <summary>
     /// 只包含数据的数据单元

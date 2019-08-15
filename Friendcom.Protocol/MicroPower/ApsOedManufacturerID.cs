@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.MicroPower
+namespace DL.Protocol.MicroPower
 {
     /// <summary>
     /// APS业务扩展域中的厂家标识

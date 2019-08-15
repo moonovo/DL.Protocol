@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._1376_2
+namespace DL.Protocol._1376_2
 {
     public class Frame1376_2Up : Frame1376_2
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.MicroPower.Enums
+namespace DL.Protocol.MicroPower.Enums
 {
     /// <summary>
     /// APS中FCD中FTD中命令标识枚举

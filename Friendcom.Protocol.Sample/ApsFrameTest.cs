@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Friendcom.Protocol.MicroPower;
-using Friendcom.Protocol.MicroPower.Enums;
-using Friendcom.Protocol.Formats;
+using DL.Protocol.MicroPower;
+using DL.Protocol.MicroPower.Enums;
+using DL.Protocol.Formats;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     [TestClass]
     public class ApsFrameTest

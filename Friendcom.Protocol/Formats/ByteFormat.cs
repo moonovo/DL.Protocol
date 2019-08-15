@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.Formats
+namespace DL.Protocol.Formats
 {
     /// <summary>
     /// 字节域转换为string的转换器 
     ///     必须为单例模式 
     ///     获取实例的静态方法名必须为GetInstance 参数必须为空
     ///     以后要添加XXX转换成string的转换器 类型必须为XXXFormat 如果XXX为基类型 那么要注意对应的System中的类型 例如int对应Int32
-    ///     命名空间必须为 Friendcom.Protocol.Formats
+    ///     命名空间必须为 DL.Protocol.Formats
     /// </summary>
     public class ByteFormat : IFormat<Byte>
     {

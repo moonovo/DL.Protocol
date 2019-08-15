@@ -1,10 +1,10 @@
-﻿using Friendcom.Protocol.MicroPower.Enums;
+﻿using DL.Protocol.MicroPower.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.MicroPower
+namespace DL.Protocol.MicroPower
 {
     /// <summary>
     /// 网络层 路由信息域

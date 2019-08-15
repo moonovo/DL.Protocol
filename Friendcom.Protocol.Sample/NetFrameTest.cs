@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Friendcom.Protocol.MicroPower.Enums;
-using Friendcom.Protocol.MicroPower;
+using DL.Protocol.MicroPower.Enums;
+using DL.Protocol.MicroPower;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     [TestClass]
     public class NetFrameTest

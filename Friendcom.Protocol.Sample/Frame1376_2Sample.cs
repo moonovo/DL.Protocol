@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Friendcom.Protocol._1376_2;
+using DL.Protocol._1376_2;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     /// <summary>
     /// Frame1376_2Sample 的摘要说明

@@ -1,10 +1,10 @@
-﻿using Friendcom.Protocol._645._07_DataFields;
+﻿using DL.Protocol._645._07_DataFields;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._645
+namespace DL.Protocol._645
 {
     /// <summary>
     /// 645协议帧
@@ -41,7 +41,7 @@ namespace Friendcom.Protocol._645
             set;
         }
 
-        private static readonly string AssemblyName = "Friendcom.Protocol";
+        private static readonly string AssemblyName = "DL.Protocol";
 
         private static readonly string DataFieldNameFormat = "C{0}_DataField";
 

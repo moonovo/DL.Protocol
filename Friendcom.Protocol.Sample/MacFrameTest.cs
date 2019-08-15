@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Friendcom.Protocol.MicroPower;
-using Friendcom.Protocol.MicroPower.Enums;
+using DL.Protocol.MicroPower;
+using DL.Protocol.MicroPower.Enums;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     [TestClass]
     public class MacFrameTest

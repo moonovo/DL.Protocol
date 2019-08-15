@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Friendcom.Protocol;
-using Friendcom.Protocol._645;
-using Friendcom.Protocol._645._07_DataFields;
+using DL.Protocol;
+using DL.Protocol._645;
+using DL.Protocol._645._07_DataFields;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     [TestClass]
     public class UnitTest1

@@ -5,12 +5,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Friendcom.Protocol;
-using Friendcom.Protocol._645;
-using Friendcom.Protocol._645._07_DataFields;
-using Friendcom.Protocol._645._97_DataFields;
+using DL.Protocol;
+using DL.Protocol._645;
+using DL.Protocol._645._07_DataFields;
+using DL.Protocol._645._97_DataFields;
 
-namespace Friendcom.Protocol.Sample
+namespace DL.Protocol.Sample
 {
     /// <summary>
     /// 645_07协议使用样例，645_07帧包含以下域：

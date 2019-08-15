@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol
+namespace DL.Protocol
 {
     /// <summary>
     /// 域
@@ -158,8 +158,8 @@ namespace Friendcom.Protocol
 
         public override string ToString()
         {
-            string assembly = "Friendcom.Protocol";
-            string formatsNamespace = "Friendcom.Protocol.Formats";
+            string assembly = "DL.Protocol";
+            string formatsNamespace = "DL.Protocol.Formats";
             if (FieldFormat == null) 
             {
                 Type type = typeof(T);

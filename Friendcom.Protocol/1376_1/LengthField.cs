@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Friendcom.Protocol._1376_1.Enum;
+using DL.Protocol._1376_1.Enum;
 
-namespace Friendcom.Protocol._1376_1
+namespace DL.Protocol._1376_1
 {
     /// <summary>
     /// 长度域

@@ -7,7 +7,7 @@ using System.Collections;
 using System.Text.RegularExpressions;
 using System.Reflection;
 
-namespace Friendcom.Protocol
+namespace DL.Protocol
 {
     /// <summary>
     /// 工具类

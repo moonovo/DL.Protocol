@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Friendcom.Protocol", "Friendcom.Protocol\Friendcom.Protocol.csproj", "{3F0D064E-F565-4A6E-8DC0-8DB5CEF4B5AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL.Protocol", "Friendcom.Protocol\DL.Protocol.csproj", "{3F0D064E-F565-4A6E-8DC0-8DB5CEF4B5AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Friendcom.Protocol.Sample", "Friendcom.Protocol.Sample\Friendcom.Protocol.Sample.csproj", "{7C7CFA56-957E-43E7-A7DA-3480E7F26FE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL.Protocol.Sample", "Friendcom.Protocol.Sample\DL.Protocol.Sample.csproj", "{7C7CFA56-957E-43E7-A7DA-3480E7F26FE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D20B7015-96C8-4C74-B080-1314D885538D}
 	EndGlobalSection
 EndGlobal

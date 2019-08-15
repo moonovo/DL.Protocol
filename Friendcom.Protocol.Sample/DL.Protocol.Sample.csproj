@@ -6,8 +6,8 @@
     <ProjectGuid>{7C7CFA56-957E-43E7-A7DA-3480E7F26FE8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Friendcom.Protocol.Sample</RootNamespace>
-    <AssemblyName>Friendcom.Protocol.Sample</AssemblyName>
+    <RootNamespace>DL.Protocol.Sample</RootNamespace>
+    <AssemblyName>DL.Protocol.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -61,9 +61,9 @@
     <Compile Include="MacFrameTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Friendcom.Protocol\Friendcom.Protocol.csproj">
+    <ProjectReference Include="..\Friendcom.Protocol\DL.Protocol.csproj">
       <Project>{3f0d064e-f565-4a6e-8dc0-8db5cef4b5ae}</Project>
-      <Name>Friendcom.Protocol</Name>
+      <Name>DL.Protocol</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

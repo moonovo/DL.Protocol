@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol
+namespace DL.Protocol
 {
     public abstract class NonLeafField<T> : Field<T>
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol.CJT188_2004
+namespace DL.Protocol.CJT188_2004
 {
     /// <summary>
     /// 控制域

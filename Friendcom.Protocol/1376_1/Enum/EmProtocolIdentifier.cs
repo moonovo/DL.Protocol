@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._1376_1.Enum
+namespace DL.Protocol._1376_1.Enum
 {
     public enum EmProtocolIdentifier
     {

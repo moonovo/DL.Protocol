@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Friendcom.Protocol._645
+namespace DL.Protocol._645
 {
     /// <summary>
     /// 645_97协议帧
@@ -15,7 +15,7 @@ namespace Friendcom.Protocol._645
         /// <summary>
         /// 数据域命名空间
         /// </summary>
-        public const string DataFieldsNamespace = "Friendcom.Protocol._645._97_DataFields";
+        public const string DataFieldsNamespace = "DL.Protocol._645._97_DataFields";
 
         /// <summary>
         /// 检查字节数组是否符合645_97协议

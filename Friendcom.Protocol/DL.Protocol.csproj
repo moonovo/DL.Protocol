@@ -8,8 +8,8 @@
     <ProjectGuid>{3F0D064E-F565-4A6E-8DC0-8DB5CEF4B5AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Friendcom.Protocol</RootNamespace>
-    <AssemblyName>Friendcom.Protocol</AssemblyName>
+    <RootNamespace>DL.Protocol</RootNamespace>
+    <AssemblyName>DL.Protocol</AssemblyName>
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

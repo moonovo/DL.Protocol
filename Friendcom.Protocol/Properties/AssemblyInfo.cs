@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Friendcom.Protocol")]
+[assembly: AssemblyTitle("DL.Protocol")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Friendcom.Protocol")]
+[assembly: AssemblyProduct("DL.Protocol")]
 [assembly: AssemblyCopyright("版权所有(C)  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
